@@ -69,6 +69,14 @@ Source: http://pixabay.com/
 
 == Changelog ==
 
+= 1.2.8 - 2020-03-25 =
+* Moved updater folder to functions folder
+* Removed responsive css on/off option
+* Removed unused alx-extensions plugin override css
+* Improved support for Gutenberg
+* Updated to Kirki 3.1.0
+* Updated language files
+
 = 1.2.7 - 2020-02-26 =
 * Fixed comments form checkbox position
 * Updated to Font Awesome 5.12.1
