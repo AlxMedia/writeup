@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 600; -ms-word-wrap: break-wor
 #wrapper { min-width: 1024px; height: 100%; }
 .container { position: relative; margin: 0 auto; max-width: 1230px; }
 .main { position: relative; }
-.main-inner { position: relative; min-height: 800px; /* instead of sticky footer */ }
+.main-inner { position: relative; overflow-x: hidden; /* Chrome fix */ min-height: 800px; /* instead of sticky footer */ }
 .content { width: 100%; position: relative; }
 .content-container { margin: 0 auto; max-width: 780px; }
 .pad { padding: 30px 30px 20px; }
