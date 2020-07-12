@@ -686,10 +686,6 @@ if ( ! function_exists( 'writeup_plugins' ) ) {
 				array(
 					'name' => esc_html__( 'WP-PageNavi', 'writeup' ),
 					'slug' => 'wp-pagenavi',
-				),
-				array(
-					'name' => esc_html__( 'Social Count Plus', 'writeup' ),
-					'slug' => 'social-count-plus',
 				)
 			);	
 			tgmpa( $plugins );
