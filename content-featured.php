@@ -6,7 +6,7 @@
 			<?php if ( has_post_thumbnail() ): ?>
 				<?php the_post_thumbnail('writeup-medium'); ?>
 			<?php else: ?>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/thumb-medium-dark.png" alt="<?php the_title_attribute(); ?>" />
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/thumb-medium-dark.png" alt="<?php the_title_attribute(); ?>" />
 			<?php endif; ?>	
 		</a>
 		<?php if ( comments_open() && ( get_theme_mod( 'comment-count','on' ) == 'on' ) ): ?>
