@@ -156,7 +156,8 @@
 	#header .pad { padding: 0; }
 	.site-title { width: 100%; float: none; }
 	.site-title a { text-align: center; }
-	.toggle-search { z-index: 999; margin-right: 0; top: -51px; left: -1px; right: auto; padding-top: 13px; padding-bottom: 13px; }
+	.toggle-search { z-index: 999; margin-right: 0; top: -53px; left: -1px; right: auto; padding-top: 12px; padding-bottom: 12px; }
+	.toggle-search.active { padding-top: 14px; padding-bottom: 15px; }
 	.search-expand { width: 100%; margin-right: -30px; top: -1px; }
 	#header-top .social-links { float: none; position: static; padding: 0 0 20px; text-align: center; width: 100%; }
 	#header-top .social-links li { margin: 0 4px; }

@@ -210,7 +210,7 @@ background: linear-gradient(to right,'.esc_attr( get_theme_mod('gradient-left') 
 			}	
 			// topbar menu color
 			if ( get_theme_mod('color-topbar-menu','') != '' ) {
-				$styles .= '#nav-topbar.nav-container { background: '.esc_attr( get_theme_mod('color-topbar-menu') ).'; }'."\n";
+				$styles .= '#wrap-nav-topbar { background: '.esc_attr( get_theme_mod('color-topbar-menu') ).'; }'."\n";
 			}
 			// header color
 			if ( get_theme_mod('color-header','') != '' ) {
@@ -219,19 +219,17 @@ background: linear-gradient(to right,'.esc_attr( get_theme_mod('gradient-left') 
 			// mobile menu color
 			if ( get_theme_mod('color-mobile-menu','') != '' ) {
 				$styles .= '
-#nav-mobile.nav-container { background-color: '.esc_attr( get_theme_mod('color-mobile-menu') ).'; }
-@media only screen and (min-width: 720px) {
-	#nav-mobile .nav ul { background-color: '.esc_attr( get_theme_mod('color-mobile-menu') ).'; }
-}			
+#wrap-nav-mobile .nav-menu.mobile { background-color: '.esc_attr( get_theme_mod('color-mobile-menu') ).'; }
 				'."\n";
 			}
 			// footer menu color
 			if ( get_theme_mod('color-footer-menu','#222222') != '#222222' ) {
 				$styles .= '
-#nav-footer.nav-container { background-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
-@media only screen and (min-width: 720px) {
-	#nav-footer .nav ul { background-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
-}			
+#wrap-nav-footer,
+#wrap-nav-footer .nav-menu.mobile { background-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
+#wrap-nav-footer .nav-menu:not(.mobile) .menu ul { background: '.esc_attr( get_theme_mod('color-footer-menu') ).';  }
+#wrap-nav-footer .nav-menu:not(.mobile) .menu ul:after { border-top-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; border-bottom-color: transparent;  }
+#wrap-nav-footer .nav-menu:not(.mobile) .menu ul ul:after { border-right-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; border-top-color: transparent; }
 				'."\n";
 			}				
 			// footer color
