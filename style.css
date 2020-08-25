@@ -847,7 +847,7 @@ box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 /* menu footer styling */
 #wrap-nav-footer { background: #222; }
 #wrap-nav-footer .nav-menu:not(.mobile) { font-size: 14px; font-weight: 600; text-transform: uppercase; border-top: 0; float: none; padding-top: 5px; padding-left: 30px; padding-right: 30px; position: relative; z-index: 2; }
-#wrap-nav-footer .nav-menu:not(.mobile) a { color: rgba(255,255,255,0.5); }
+#wrap-nav-footer .nav-menu:not(.mobile) a { color: rgba(255,255,255,0.65); }
 #wrap-nav-footer .nav-menu:not(.mobile) a:hover { color: #fff; }
 #wrap-nav-footer .nav-menu:not(.mobile) button { transform: rotate(-180deg); }
 #wrap-nav-footer .nav-menu:not(.mobile) .menu ul button { transform: none; }
