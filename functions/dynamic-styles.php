@@ -225,6 +225,10 @@ background: linear-gradient(to right,'.esc_attr( get_theme_mod('gradient-left') 
 			// footer menu color
 			if ( get_theme_mod('color-footer-menu','#222222') != '#222222' ) {
 				$styles .= '
+#footer-bottom #back-to-top { color: rgba(255,255,255,0.7); }
+#footer-bottom #back-to-top:hover { color: #fff; }
+#footer-bottom { border-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
+#footer-bottom #back-to-top { background-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
 #wrap-nav-footer,
 #wrap-nav-footer .nav-menu.mobile { background-color: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
 #wrap-nav-footer .nav-menu:not(.mobile) .menu ul { background: '.esc_attr( get_theme_mod('color-footer-menu') ).';  }
