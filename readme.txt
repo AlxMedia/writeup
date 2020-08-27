@@ -68,7 +68,7 @@ Source: http://pixabay.com/
 
 == Changelog ==
 
-= 1.3.1 - 2020-08-25 =
+= 1.3.1 - 2020-08-28 =
 * Improved a11y
 * Added new menu
 
