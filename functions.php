@@ -72,6 +72,9 @@ if ( ! function_exists( 'writeup_setup' ) ) {
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
 		
+		// Disable support for widgets block editor
+		remove_theme_support( 'widgets-block-editor' );
+		
 		// Thumbnail sizes
 		add_image_size( 'writeup-small', 160, 160, true );
 		add_image_size( 'writeup-medium', 520, 292, true );
