@@ -1,7 +1,7 @@
 === Writeup ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 5.8
+Tested up to: 5.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -73,6 +73,9 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
 == Changelog ==
+
+= 1.3.8 - 2022-01-24 =
+* Updated to Kirki 4.0
 
 = 1.3.7 - 2021-07-23 =
 * Disabled support for widgets block editor
