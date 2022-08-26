@@ -85,6 +85,9 @@ Subheader images
 
 == Changelog ==
 
+= 1.4.1 - 2022-08-26 =
+* Fixed incorrect author name esc_attr
+
 = 1.4.0 - 2022-08-25 =
 * Changed theme from premium to free
 
