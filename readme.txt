@@ -87,6 +87,7 @@ Subheader images
 
 = 1.4.2 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 1.4.1 - 2022-08-26 =
 * Fixed incorrect author name esc_attr
