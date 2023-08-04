@@ -85,6 +85,9 @@ Subheader images
 
 == Changelog ==
 
+= 1.4.2 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.4.1 - 2022-08-26 =
 * Fixed incorrect author name esc_attr
 
