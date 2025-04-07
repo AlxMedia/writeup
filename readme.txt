@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar,
 
 == Description ==
 
-Writeup is a flexible theme for blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. Set to any colors you wish with extensive styling options. Demo: http://demo.alx.media/x/?theme=Writeup
+Writeup is a flexible theme for blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. Set to any colors you wish with extensive styling options. Demo: https://demo.agnarson.com/?theme=Writeup
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Writeup is a flexible theme for blogs and magazines. Unique toggle sidebars give
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
